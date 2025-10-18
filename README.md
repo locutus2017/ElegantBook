@@ -7,35 +7,28 @@
 
 -------
 
-# ElegantBook: 优美的 LaTeX 书籍模板 An Elegant LaTeX Template for Books 
+ElegantBook: An Elegant LaTeX Template for Books
+ElegantBook is a template designed for writing books. It was created by Ethan Deng and Liam Huang and is maintained by Ethan Deng, syvshc, and sikouhjw. If you have any questions, suggestions, or bug reports, please submit an issue or join our QQ user chat group: 692108391.
 
-ElegantBook 是为 LaTeX 书籍写作而设计的模板，由 [Ethan Deng](https://github.com/EthanDeng) 和 [Liam Huang](https://github.com/Liam0205) 创立，现在主要由 [Ethan Deng](https://github.com/EthanDeng)、[乙醇](https://github.com/syvshc)和[死抠](https://github.com/sikouhjw)维护。如果你有其他问题、建议或者报告 bug，可以提交 issues 或者加入我们的 QQ 用户交流群：692108391。
+ElegantBook is designed for writing books, created by Ethan Deng and Liam Huang, and maintained by Ethan Deng, syvshc, and sikouhjw. Just enjoy it! If you have any questions, suggestions, or bug reports, you can create an issue or contact us at elegantlatex2e@gmail.com.
 
-ElegantBook is designed for writing books, created by [Ethan Deng](https://github.com/EthanDeng) and [Liam Huang](https://github.com/Liam0205), and maintained by [Ethan Deng](https://github.com/EthanDeng), [syvshc](https://github.com/syvshc) and [sikouhjw](https://github.com/sikouhjw). Just enjoy it! If you have any questions, suggestions or bug reports, you can create issues or contact us at elegantlatex2e@gmail.com.
+This template will no longer be maintained starting January 1, 2023. Using this template series is not recommended! To ensure that users of previous versions can still find the documentation, this manual retains the previous information.
 
+Caution: This template will no longer be maintained since January 1st, 2023.
 
-**本模板自 2023 年 1 月 1 日开始，不再维护，不建议使用本系列模板！为了保证之前版本的用户仍然能查到说明文档，本说明文档仍然保留过去的信息。**
+Acknowledgements
+Special thanks to sikouhjw and syvshc for their quick response to Github issues and their responses to ElegantLaTeX-related questions on various community forums. Special thanks to ChinaTeX and LaTeX Studio for their active promotion and publicity of this template series.
 
-**Caution: This template will no longer be maintained since January 1st, 2023.**
+Thank sikouhjw and syvshc for their quick response to Github issues and their continuous support for the ElegantLaTeX community. Thank you ChinaTeX and LaTeX Studio for their promotion.
 
-## 致谢 Acknowledgement
-
-
-特别感谢 [sikouhjw](https://github.com/sikouhjw) 和 [syvshc](https://github.com/syvshc) 长期以来对于 Github 上 issue 的快速回应，以及各个社区论坛对于 ElegantLaTeX 相关问题的回复。特别感谢 ChinaTeX 以及 [LaTeX 工作室](http://www.latexstudio.net/)对于本系列模板的大力宣传与推广。
-
-Thank [sikouhjw](https://github.com/sikouhjw) and [syvshc](https://github.com/syvshc) for their quick response to Github issues and continuously support work for ElegantLaTeX community. Thank ChinaTeX and [LaTeX Studio](http://www.latexstudio.net/) for their promotion. 
-
-
-## 协议 License
-
-本模板发布遵循 LaTeX 项目公共许可证 1.3 c 或更高版本。
-如果是衍生作品，请务必加入协议声明和模板信息（github、CTAN 地址）。
+License
+This template is distributed under the LaTeX Project Public License 1.3c or later. If you are creating a derivative work, please be sure to include the license notice and template information (GitHub and CTAN links).
 
 This work is released under the LaTeX Project Public License, v1.3c or later.
 
+Derivative Works
+ElegantBookdown: A Bookdown template based on ElegantBook, developed and maintained by XiangyunHuang.
+bookdownplus: At the request of users, pzhaonet has included the ElegantPaper template in bookdownplus and adapted the fonts for Mac.
+PanBook: A Markdown-based writing workflow developed and maintained by annProg, including templates for ElegantBook and ElegantPaper.
 
-## 衍生品 Derivative Works
 
-+ [ElegantBookdown](https://github.com/XiangyunHuang/ElegantBookdown)：[XiangyunHuang](https://github.com/XiangyunHuang) 开发并维护的基于 ElegantBook 的 Bookdown 模板。
-+ [bookdownplus](https://github.com/pzhaonet/bookdownplus)：应网友要求，[pzhaonet](https://github.com/pzhaonet) 在 bookdownplus 收录了 ElegantPaper 模板，并为 Mac 做了字体适配。
-+ [PanBook](https://github.com/annProg/PanBook)：[annProg](https://github.com/annProg) 开发并维护的基于 Markdown 写作的工作流，收录了 ElegantBook 和 ElegantPaper 模板。
