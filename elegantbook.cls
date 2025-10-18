@@ -4,11 +4,12 @@
 %%
 %% This work may be distributed and/or modified freely
 %% available at https://github.com/ElegantLaTeX/ElegantBook
+%% Copyright 2025 Locutus2017 
 % 
 %%%%%%%%%%%%%%%%%%%%%
 % % !Mode:: "TeX:UTF-8"
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{elegantbook}[2022/12/31 v4.5 ElegantBook document class]
+\ProvidesClass{elegantbook}[2025/10/15 v4.6 ElegantBook document class]
 
 
 %%%
