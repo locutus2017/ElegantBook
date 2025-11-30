@@ -44,6 +44,7 @@
 \DeclareVoidOption{nofont}{\ekv{chinesefont=nofont}}
 
 \DeclareVoidOption{en}{\ekv{lang=en}}
+\DeclareVoidOption{ar}{\ekv{lang=ar}}
 \DeclareVoidOption{cn}{\ekv{lang=cn}}
 \DeclareVoidOption{it}{\ekv{lang=it}}
 \DeclareVoidOption{fr}{\ekv{lang=fr}}
