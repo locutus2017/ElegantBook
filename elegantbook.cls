@@ -193,6 +193,73 @@
     Scale = 0.9]
 \fi
 
+\ifdefstring{\ELEGANT@lang}{ar}{
+  % Arabic requires XeLaTeX or LuaLaTeX
+  \ifpdftex
+    \ClassError{elegantbook}{%
+      lang=ar requires XeLaTeX or LuaLaTeX%
+    }{%
+      Compile with xelatex or lualatex instead of pdflatex.%
+    }
+  \fi
+
+  % RTL + language setup
+  \RequirePackage{polyglossia}
+  \setmainlanguage{arabic}
+  \setotherlanguage{english}
+
+  % Arabic fonts (adjust to what you have installed)
+  % Amiri is a good default for Quranic/Arabic text
+  \newfontfamily\arabicfont[Script=Arabic,Scale=1.1]{Amiri}
+  \newfontfamily\arabicfontsf[Script=Arabic,Scale=1.1]{Amiri}
+  \newfontfamily\arabicfonttt[Script=Arabic,Scale=1.1]{Amiri}
+
+  \setlength\parindent{2em}
+
+  % Interface strings in Arabic
+  \renewcommand{\contentsname}{الفهرس}
+  \renewcommand{\figurename}{الشكل}
+  \renewcommand{\tablename}{الجدول}
+  \renewcommand{\chaptername}{الفصل}
+  \renewcommand{\appendixname}{الملحق}
+  \renewcommand{\listfigurename}{قائمة الأشكال}
+  \renewcommand{\listtablename}{قائمة الجداول}
+  \renewcommand{\bibname}{المراجع}
+  \newcommand{\ebibname}{المراجع}
+  \renewcommand{\indexname}{الفهرس}
+
+  % References
+  \newcommand\figref[1]{\textbf{الشكل}~\ref{#1}}
+  \newcommand\tabref[1]{\textbf{الجدول}~\ref{#1}}
+
+  % Meta labels
+  \newcommand{\authorname}{\textbf{المؤلف: }}
+  \newcommand{\institutename}{\textbf{الجهة: }}
+  \newcommand{\datename}{\textbf{التاريخ: }}
+  \newcommand{\versionname}{\textbf{الإصدار: }}
+  \newcommand{\notename}{ملاحظة}
+  \newcommand{\proofname}{برهان}
+  \newcommand{\problemname}{مسألة}
+  \newcommand{\definitionname}{تعريف}
+  \newcommand{\theoremname}{نظرية}
+  \newcommand{\axiomname}{مسلمة}
+  \newcommand{\postulatename}{افتراض}
+  \newcommand{\lemmaname}{لمّة}
+  \newcommand{\propositionname}{قضية}
+  \newcommand{\corollaryname}{نتيجة}
+  \newcommand{\examplename}{مثال}
+  \newcommand{\exercisename}{تمرين}
+  \newcommand{\remarkname}{تنبيه}
+  \newcommand{\assumptionname}{افتراض}
+  \newcommand{\conclusionname}{خلاصة}
+  \newcommand{\solutionname}{حل}
+  \newcommand{\propertyname}{خاصية}
+  \newcommand{\introductionname}{مقدمة}
+  \newcommand\bioinfo[2]{\gdef\@bioinfo{\textbf{#1}: #2}}
+  \newcommand{\updatename}{تحديث:}
+  \newcommand{\historyname}{سجل الإصدارات}
+}{\relax}
+
 \ifdefstring{\ELEGANT@lang}{cn}{
   \ifdefstring{\ELEGANT@chinesefont}{founder}{
     \RequirePackage[UTF8, scheme=plain, fontset=none]{ctex}
